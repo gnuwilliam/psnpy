@@ -15,5 +15,5 @@ clean-pyc:
 lint:
 	flake8 .
 
-test:
+test: lint
 	py.test tests

@@ -1,5 +1,8 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 import requests
 import json
+
 
 def test_psnpy_response():
     r = requests.get("http://localhost:8000")
